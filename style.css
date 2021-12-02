@@ -11,7 +11,7 @@ body {
 .navbar {
     background-color: white;
     max-height: none;
-    padding: inherit;
+    padding: 0;
 }
 
 
