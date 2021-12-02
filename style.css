@@ -119,12 +119,6 @@ p{
     height: 400px;
 }
 
- /* p :not(intro){
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: justify;
-}  */
-
 img {
     width: 100%;
     height: 100%;
@@ -152,7 +146,12 @@ a {
     .navbar-expand-lg {
         background-color: #fff;
 }
+    
+@media only screen and (max-width: 980px) {
+    .dropdown-menu {
+        position: absolute;
+    
+ }    
 
-
-
+}
 }
